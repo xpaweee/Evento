@@ -1,0 +1,8 @@
+C:\Users\krzys\Desktop\Evento\src\Evento.Core\bin\Debug\netstandard2.0\Evento.Core.deps.json
+C:\Users\krzys\Desktop\Evento\src\Evento.Core\bin\Debug\netstandard2.0\Evento.Core.dll
+C:\Users\krzys\Desktop\Evento\src\Evento.Core\bin\Debug\netstandard2.0\Evento.Core.pdb
+C:\Users\krzys\Desktop\Evento\src\Evento.Core\obj\Debug\netstandard2.0\Evento.Core.csprojAssemblyReference.cache
+C:\Users\krzys\Desktop\Evento\src\Evento.Core\obj\Debug\netstandard2.0\Evento.Core.AssemblyInfoInputs.cache
+C:\Users\krzys\Desktop\Evento\src\Evento.Core\obj\Debug\netstandard2.0\Evento.Core.AssemblyInfo.cs
+C:\Users\krzys\Desktop\Evento\src\Evento.Core\obj\Debug\netstandard2.0\Evento.Core.dll
+C:\Users\krzys\Desktop\Evento\src\Evento.Core\obj\Debug\netstandard2.0\Evento.Core.pdb
