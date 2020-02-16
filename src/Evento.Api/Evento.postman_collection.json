@@ -1,0 +1,203 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Evento",
+		"_postman_id": "bcecd0f7-0293-cecb-26c3-f052ce7ef738",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Account",
+			"description": "",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"url": "http://localhost:5000/account/register",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"email\": \"test@test.com\", \"password\": \"secret\", \"name\": \"Test user\", \"role\": \"user\"}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get account",
+					"request": {
+						"url": "http://localhost:5000/account/",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"url": "http://localhost:5000/account/login",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"email\": \"test@test.com\", \"password\": \"secret\"}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get tickets for account",
+					"request": {
+						"url": "http://localhost:5000/account/tickets",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmOTE5ZWJlMS05NmFlLTQxNDgtYTk5Mi1kNmQ4MDNjNDA2M2EiLCJ1bmlxdWVfbmFtZSI6ImY5MTllYmUxLTk2YWUtNDE0OC1hOTkyLWQ2ZDgwM2M0MDYzYSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6ImFkbWluIiwianRpIjoiNDlhZDZhNTItMWU4NC00OWU0LTkzNTUtNDc2NWFhZDRhOTU4IiwiaWF0IjoiMTQ5NTQ2NjM0NjkwMiIsIm5iZiI6MTQ5NTQ2NjM0NiwiZXhwIjoxNDk1NDY5OTQ2LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDAifQ.mKbsMV4Kd_ybMqs86hFAEGBK84eHDxGmv0Dp7AmMhtI",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Events",
+			"description": "",
+			"item": [
+				{
+					"name": "Get events",
+					"request": {
+						"url": "http://localhost:5000/events",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get event",
+					"request": {
+						"url": "http://localhost:5000/events/event_id",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Create event",
+					"request": {
+						"url": "http://localhost:5000/events",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"My event\",\n\t\"description\": \"My event description\",\n\t\"startDate\": \"2017-06-07\",\n\t\"endDate\": \"2017-06-08\",\n\t\"tickets\": 1000,\n\t\"price\": 50\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Update event",
+					"request": {
+						"url": "http://localhost:5000/events/event_id",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"My updated event\",\n\t\"description\": \"My updated event description\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Delete event",
+					"request": {
+						"url": "http://localhost:5000/events/event_id",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tickets",
+			"description": "",
+			"item": [
+				{
+					"name": "Get ticket",
+					"request": {
+						"url": "http://localhost:5000/events/event_id/tickets/ticket_id",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Purchase tickets",
+					"request": {
+						"url": "http://localhost:5000/events/event_id/tickets/purchase/amount",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Cancel tickets",
+					"request": {
+						"url": "http://localhost:5000/events/event_id/tickets/cancel/amount",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

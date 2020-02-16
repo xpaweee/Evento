@@ -21,3 +21,5 @@ C:\Users\krzys\Desktop\Evento\src\Evento.Api\obj\Debug\netcoreapp3.1\Evento.Api.
 C:\Users\krzys\Desktop\Evento\src\Evento.Api\obj\Debug\netcoreapp3.1\Evento.Api.csproj.CopyComplete
 C:\Users\krzys\Desktop\Evento\src\Evento.Api\obj\Debug\netcoreapp3.1\Evento.Api.dll
 C:\Users\krzys\Desktop\Evento\src\Evento.Api\obj\Debug\netcoreapp3.1\Evento.Api.pdb
+C:\Users\krzys\Desktop\Evento\src\Evento.Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\krzys\Desktop\Evento\src\Evento.Api\bin\Debug\netcoreapp3.1\Evento.postman_collection.json
