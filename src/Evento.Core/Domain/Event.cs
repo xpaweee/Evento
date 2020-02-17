@@ -56,6 +56,16 @@ namespace Evento.Core.Domain
             Description = description;
             UpdatedAt = DateTime.UtcNow;
         }
+        public void PurchaseTickets(User user,int amount)
+        {
+            if(AvailableTickets.Count() < amount)
+                throw new Exception($"Not enough available tickets to purchase ({amount}) by user.");
+            var tickets = AvailableTickets.Take(amount);
+            foreach (var ticket in tickets)
+            {
+                ticket.Purchase(user);
+            }
+        }
 
 
     }

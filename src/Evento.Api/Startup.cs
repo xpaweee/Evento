@@ -33,7 +33,7 @@ namespace Evento.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAuthorization();
+            services.AddAuthorization( x=> x.AddPolicy("HasAdminRole", p => p.RequireRole("admin")));
             services.AddControllers();
             //services.AddTransient   <- nowy obiekt za każdym razem
             //services.AddScoped   <- pojedyncze per żądanie http
