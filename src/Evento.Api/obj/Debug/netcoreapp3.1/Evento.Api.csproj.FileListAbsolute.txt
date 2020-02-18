@@ -32,3 +32,7 @@ C:\Users\krzys\Desktop\Evento\src\Evento.Api\bin\Debug\netcoreapp3.1\Microsoft.I
 C:\Users\krzys\Desktop\Evento\src\Evento.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\krzys\Desktop\Evento\src\Evento.Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\krzys\Desktop\Evento\src\Evento.Api\bin\Debug\netcoreapp3.1\test.json
+C:\Users\krzys\Desktop\Evento\src\Evento.Api\bin\Debug\netcoreapp3.1\nlog.config
+C:\Users\krzys\Desktop\Evento\src\Evento.Api\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\krzys\Desktop\Evento\src\Evento.Api\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\krzys\Desktop\Evento\src\Evento.Api\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll

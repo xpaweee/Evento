@@ -4,91 +4,91 @@
             "id": "81f06d69-f2ae-412b-a6e9-594f036d55d1",
             "seating": 1,
             "price": 50,
-            "userId": null,
-            "username": null,
-            "purchasedAt": null,
-            "purchased": false
+            "userId": "04bc13e2-b93a-47fb-bb27-3296613b0700",
+            "username": "Test user",
+            "purchasedAt": "2020-02-18T20:48:25.7277727Z",
+            "purchased": true
         },
         {
             "id": "1a728bfb-9c41-4010-b65a-fea0764bf101",
             "seating": 2,
             "price": 50,
-            "userId": null,
-            "username": null,
-            "purchasedAt": null,
-            "purchased": false
+            "userId": "04bc13e2-b93a-47fb-bb27-3296613b0700",
+            "username": "Test user",
+            "purchasedAt": "2020-02-18T20:48:25.7277763Z",
+            "purchased": true
         },
         {
             "id": "a3a79143-4480-4751-94c0-bf0be5d5c19c",
             "seating": 3,
             "price": 50,
-            "userId": null,
-            "username": null,
-            "purchasedAt": null,
-            "purchased": false
+            "userId": "04bc13e2-b93a-47fb-bb27-3296613b0700",
+            "username": "Test user",
+            "purchasedAt": "2020-02-18T20:48:25.7277766Z",
+            "purchased": true
         },
         {
             "id": "942c5635-f36f-4a75-8a14-54868f95e885",
             "seating": 4,
             "price": 50,
-            "userId": null,
-            "username": null,
-            "purchasedAt": null,
-            "purchased": false
+            "userId": "04bc13e2-b93a-47fb-bb27-3296613b0700",
+            "username": "Test user",
+            "purchasedAt": "2020-02-18T20:48:25.7277768Z",
+            "purchased": true
         },
         {
             "id": "15257187-85b2-4cba-89e5-74e23d3d0235",
             "seating": 5,
             "price": 50,
-            "userId": null,
-            "username": null,
-            "purchasedAt": null,
-            "purchased": false
+            "userId": "04bc13e2-b93a-47fb-bb27-3296613b0700",
+            "username": "Test user",
+            "purchasedAt": "2020-02-18T20:48:25.727777Z",
+            "purchased": true
         },
         {
             "id": "80231027-379b-4992-9a0a-0fd5524bd859",
             "seating": 6,
             "price": 50,
-            "userId": null,
-            "username": null,
-            "purchasedAt": null,
-            "purchased": false
+            "userId": "04bc13e2-b93a-47fb-bb27-3296613b0700",
+            "username": "Test user",
+            "purchasedAt": "2020-02-18T20:48:25.7277772Z",
+            "purchased": true
         },
         {
             "id": "da0214d3-a056-4da4-897f-82fd2ba10eaf",
             "seating": 7,
             "price": 50,
-            "userId": null,
-            "username": null,
-            "purchasedAt": null,
-            "purchased": false
+            "userId": "04bc13e2-b93a-47fb-bb27-3296613b0700",
+            "username": "Test user",
+            "purchasedAt": "2020-02-18T20:48:25.7277775Z",
+            "purchased": true
         },
         {
             "id": "d838ee13-e696-4070-90ab-d2c45dee17b5",
             "seating": 8,
             "price": 50,
-            "userId": null,
-            "username": null,
-            "purchasedAt": null,
-            "purchased": false
+            "userId": "04bc13e2-b93a-47fb-bb27-3296613b0700",
+            "username": "Test user",
+            "purchasedAt": "2020-02-18T20:48:25.727778Z",
+            "purchased": true
         },
         {
             "id": "4f916905-e97a-45d8-82f4-d2382a1d33da",
             "seating": 9,
             "price": 50,
-            "userId": null,
-            "username": null,
-            "purchasedAt": null,
-            "purchased": false
+            "userId": "04bc13e2-b93a-47fb-bb27-3296613b0700",
+            "username": "Test user",
+            "purchasedAt": "2020-02-18T20:48:25.7277783Z",
+            "purchased": true
         },
         {
             "id": "a6f34930-6617-4dad-839a-02d55c69340e",
             "seating": 10,
             "price": 50,
-            "userId": null,
-            "username": null,
-            "purchasedAt": null,
-            "purchased": false
+            "userId": "04bc13e2-b93a-47fb-bb27-3296613b0700",
+            "username": "Test user",
+            "purchasedAt": "2020-02-18T20:48:25.7277786Z",
+            "purchased": true
         },
         {
             "id": "ec317fd7-d1d0-44d1-88f7-5ab84caffaef",
@@ -9008,6 +9008,6 @@
     "endDate": "0001-01-01T00:00:00",
     "updatedAt": "2020-02-18T20:43:33.122157Z",
     "ticketsCount": 1000,
-    "purchasedTicketsCount": 0,
-    "availableTicketsCount": 1000
+    "purchasedTicketsCount": 10,
+    "availableTicketsCount": 990
 }}

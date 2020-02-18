@@ -9,11 +9,12 @@ namespace Evento.Infrastructure.Repositories
 {
     public class EventRepository : IEventRepository
     {
-        private  static readonly ISet<Event> _events = new HashSet<Event>()
-        {
-            new Event(Guid.NewGuid(),"Event 1","Event 1 description"),
-            new Event(Guid.NewGuid(),"Event 2","Event 2 description"),
-        };
+        // private  static readonly ISet<Event> _events = new HashSet<Event>()
+        // {
+        //     new Event(Guid.NewGuid(),"Event 1","Event 1 description"),
+        //     new Event(Guid.NewGuid(),"Event 2","Event 2 description"),
+        // };
+          private  static readonly ISet<Event> _events = new HashSet<Event>();
         
 
         

@@ -34,13 +34,19 @@ namespace Evento.Core.Domain
             
         }
 
-        public Event(Guid id, string name, string description)
+        public Event(Guid id, string name, string description,DateTime startDate,DateTime endDate)
         {
             Id = id;
             SetName(name);
             SetDescription(description);
-            
-
+            SetDates(startDate,endDate);
+        }
+        public void SetDates(DateTime startDate,DateTime endDate)
+        {
+            if(startDate >= endDate)
+                throw new Exception($"Event with id '{Id}' must have a end date grater than start date.");
+            StartDate = startDate;
+            EndDate = endDate;
         }
         public void SetName(string name)
         {

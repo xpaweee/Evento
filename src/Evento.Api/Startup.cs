@@ -44,7 +44,6 @@ namespace Evento.Api
             services.AddSingleton<IJwtHandler,JwtHandler>();
             services.AddScoped<ITicketService,TicketService>();
             services.AddSingleton(AutoMapperConfig.Initialize());
-            
             // configure jwt authentication
             var appSettingsSection = Configuration.GetSection("jwt");
             services.Configure<JwtSettings>(appSettingsSection);
