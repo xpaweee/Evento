@@ -23,6 +23,7 @@ namespace Evento.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> Get(string name)
         {
+            //throw new ArgumentException("tst");
             var events = _memoryCache.Get<IEnumerable<EventDto>>("events");
             if(events == null)
             {

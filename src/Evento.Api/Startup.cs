@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Evento.Api.Framework;
 using Evento.Core.Repositories;
 using Evento.Infrastructure.Mappers;
 using Evento.Infrastructure.Repositories;
@@ -19,6 +20,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Evento.Api
@@ -90,7 +92,8 @@ namespace Evento.Api
          public void ConfigureContainer(ContainerBuilder builder)
         {
             // Register your own things directly with Autofac, like:
-              builder.RegisterType<EventRepository>().As<IEventRepository>().InstancePerLifetimeScope();;
+              builder.RegisterType<EventRepository>().As<IEventRepository>().InstancePerLifetimeScope();
+              builder.RegisterType<DataInitializer>().As<IDataInitializer>().InstancePerLifetimeScope();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -103,6 +106,8 @@ namespace Evento.Api
             this.AutofacContainer = app.ApplicationServices.GetAutofacRoot();
             app.UseHttpsRedirection();
 
+            app.UseErrorHandler();
+
             app.UseRouting();
 
             app.UseAuthentication();
@@ -113,6 +118,17 @@ namespace Evento.Api
             {
                 endpoints.MapControllers();
             });
+            SeedDate(app);
+        }
+        private void SeedDate(IApplicationBuilder app)
+        {
+            var appSettingsSection = Configuration.GetSection("app");
+            var appSettings = appSettingsSection.Get<AppSettings>();
+            if(appSettings.SeedDate)
+            {
+                var dataInitializer = app.ApplicationServices.GetService<IDataInitializer>();
+                dataInitializer.SeedAsync();
+            }
         }
     }
 }
