@@ -1,0 +1,11 @@
+C:\Users\krzys\Desktop\Evento\src\Evento.Infrastructure\bin\Release\netstandard2.0\Evento.Infrastructure.deps.json
+C:\Users\krzys\Desktop\Evento\src\Evento.Infrastructure\bin\Release\netstandard2.0\Evento.Infrastructure.dll
+C:\Users\krzys\Desktop\Evento\src\Evento.Infrastructure\bin\Release\netstandard2.0\Evento.Infrastructure.pdb
+C:\Users\krzys\Desktop\Evento\src\Evento.Infrastructure\bin\Release\netstandard2.0\Evento.Core.dll
+C:\Users\krzys\Desktop\Evento\src\Evento.Infrastructure\bin\Release\netstandard2.0\Evento.Core.pdb
+C:\Users\krzys\Desktop\Evento\src\Evento.Infrastructure\obj\Release\netstandard2.0\Evento.Infrastructure.csprojAssemblyReference.cache
+C:\Users\krzys\Desktop\Evento\src\Evento.Infrastructure\obj\Release\netstandard2.0\Evento.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\krzys\Desktop\Evento\src\Evento.Infrastructure\obj\Release\netstandard2.0\Evento.Infrastructure.AssemblyInfo.cs
+C:\Users\krzys\Desktop\Evento\src\Evento.Infrastructure\obj\Release\netstandard2.0\Evento.Infrastructure.csproj.CopyComplete
+C:\Users\krzys\Desktop\Evento\src\Evento.Infrastructure\obj\Release\netstandard2.0\Evento.Infrastructure.dll
+C:\Users\krzys\Desktop\Evento\src\Evento.Infrastructure\obj\Release\netstandard2.0\Evento.Infrastructure.pdb
